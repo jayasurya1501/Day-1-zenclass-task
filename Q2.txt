@@ -1,0 +1,21 @@
+2.Write a blog about objects and its internal representation in Javascript
+
+Object Basics:
+
+    *Objects are collections of key-value pairs.
+    *Properties, consisting of keys and values, define an object's structure.
+
+Internal Storage:
+
+    *Object properties are stored in a hash table, enabling efficient data retrieval.
+    *Hash values are calculated for quick property access.
+
+Optimization Techniques:
+
+    *JavaScript engines use hidden classes and shape trees to optimize property access.
+    *Hidden classes represent object blueprints; shape trees depict the hierarchy of these classes.
+
+Prototypes and Inheritance:
+
+    *Objects can have prototypes, forming a chain for inheritance.
+    *Prototypes create a tree-like structure with shared references.

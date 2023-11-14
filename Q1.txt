@@ -1,0 +1,26 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+
+Multiplexing Magic:
+
+     HTTP/1.1 relies on sequential requests, establishing different connections for each object. 
+However, HTTP/2 introduces multiplexing, allowing data to flow over one connection at a time. 
+This increases loading speeds and enhances the user experience.
+
+Header Efficiency:
+
+     HTTP/1.1 sends headers in plain text with each request, eliminating unnecessary data transfers. 
+Configure HTTP/2 with header compression, which reduces overhead. This not only reduces latency 
+but also makes better use of network resources.
+
+Binary Brilliance:
+
+     While HTTP/1.1 communicates in a human-readable textual content layout, HTTP/2 adopts a binary protocol.
+This streamlined approach improves parsing performance and decreases file sizes, resulting in quicker records
+switch and quicker page masses.
+
+To push the limits with Server Push:
+
+     HTTP/2 introduces a game-changer called Server Push. Instead of waiting for client requests, servers 
+actively push resources. This predictable process speeds up page loading, especially for complex web applications.
+
